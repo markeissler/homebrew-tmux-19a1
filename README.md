@@ -1,3 +1,6 @@
+## Tap Deprecation Notice
+This custom version of Tmux is no longer needed. Its primary function was to implement support for format specifiers nested inside of command format specifiers. This functionality is supported by Tmux 2.0+ when using long format specifiers.
+
 # Tmux 1.9a1 Homebrew Tap
 
 This tap has been created to specifically install Tmux 1.9a1, which is a patched version of Tmux 1.9a (stable). The modifications add support for parsing of nested format specifiers within command format specifiers. This let's you do things like include the following in a status bar segment:
